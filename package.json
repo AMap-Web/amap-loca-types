@@ -1,0 +1,29 @@
+{
+  "name": "@amap/amap-loca-types",
+  "version": "0.0.1",
+  "description": "高德地图Loca2.0 types文件",
+  "keywords": ["amap","loca","高德地图","types"],
+  "main": "index.js",
+  "module": "index.mjs",
+  "typings": "index.d.ts",
+  "scripts": {
+    "test": "tsc index.d.ts"
+  },
+  "files": ["index.d.ts", "index.mjs", "index.js"],
+  "author": "yangyanggu",
+  "license": "MIT",
+  "repository": "https://github.com/AMap-Web/amap-loca-types",
+  "bugs": {
+    "url": "https://github.com/AMap-Web/amap-loca-types/issues"
+  },
+  "dependencies": {
+    "@amap/amap-jsapi-types": "^0.0.13",
+    "@types/geojson": "^7946.0.14"
+  },
+  "devDependencies": {
+    "typescript": "^3.7.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
